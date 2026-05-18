@@ -16,7 +16,7 @@ depends: [
   "ppx_jane"
   "dune"     {>= "3.17.0"}
 ]
-available: arch != "arm32" & arch != "x86_32"
+available: arch != "x86_32"
 synopsis: "[Heterogeneous_list] is a list that can contain arbitrary, mixed types as elements. A bit like a Python list."
 description: "
 [Heterogeneous_list] is a list that can contain arbitrary, mixed types as elements. A bit like a Python list.
